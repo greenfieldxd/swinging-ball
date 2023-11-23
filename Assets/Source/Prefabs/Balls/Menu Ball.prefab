@@ -48,6 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2781009156503243210}
+  rb: {fileID: 2781009156503243208}
+  joint: {fileID: 0}
+  coll: {fileID: 2781009156503243205}
+  effect: {fileID: 4437299154951772940, guid: f2cb9650b76fbce4d84bfc7c304df0fe, type: 3}
 --- !u!212 &2781009156503243210
 SpriteRenderer:
   m_ObjectHideFlags: 0

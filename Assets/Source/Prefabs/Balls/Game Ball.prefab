@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012201049431131062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49,6 +49,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2012201049431131064}
+  rb: {fileID: 2012201049431131066}
+  joint: {fileID: 4278593799540020448}
+  coll: {fileID: 2012201049431131063}
+  effect: {fileID: 4437299154951772940, guid: f2cb9650b76fbce4d84bfc7c304df0fe, type: 3}
 --- !u!212 &2012201049431131064
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -108,9 +112,9 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012201049431131062}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: f14a54fc4f2b26246a42f7f997a43822, type: 2}
+  m_Material: {fileID: 6200000, guid: d9e1060f32203ce4dbef269a0b5e4637, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

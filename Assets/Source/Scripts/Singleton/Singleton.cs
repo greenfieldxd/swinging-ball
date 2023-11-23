@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Kuhpik
+namespace Source.Scripts.Singleton
 {
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {

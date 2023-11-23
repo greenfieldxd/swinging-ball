@@ -1,5 +1,4 @@
-﻿using Source.Scripts.Data;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Source.Scripts.Main
 {
